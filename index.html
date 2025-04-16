@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sweet Scribbles Blog</title>
+    <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@400;700&family=Gochi+Hand&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="logo-container">
+            <h1 class="logo"><i class="fas fa-book-open"></i>Sweet Scribbles</h1>
+            <div class="user-actions">
+                <div class="user-icon" title="Login" onclick="window.location.href='admin-login.html'">
+                    <i class="fas fa-user"></i>
+                </div>
+                <div class="user-icon" title="Search">
+                    <i class="fas fa-search"></i>
+                </div>
+            </div>
+        </div>
+        <nav class="navigation">
+            <a href="index.html" class="nav-link"><i class="fas fa-home"></i> Home</a>
+            <a href="#"><i class="fas fa-heart"></i> Favorites</a>
+            <a href="#"><i class="fas fa-tag"></i> Categories</a>
+            <a href="#"><i class="fas fa-star"></i> Featured</a>
+            <a href="#"><i class="fas fa-info-circle"></i> About</a>
+            <a href="#"><i class="fas fa-envelope"></i> Contact</a>
+            <a href="admin-login.html" class="nav-link"><i class="fas fa-lock"></i> Admin</a>
+        </nav>
+    </header>
+
+    <div class="main-container">
+        <main class="blog-container">
+            <article class="notebook-paper">
+                <h2 class="post-title">My First Cute Blog Post!</h2>
+                <div class="post-meta">
+                    <span class="meta-item"><i class="far fa-calendar-alt"></i> April 12, 2024</span>
+                    <span class="meta-item"><i class="fas fa-tag"></i> Spring Edition</span>
+                    <span class="meta-item"><i class="fas fa-comment"></i> 5 Comments</span>
+                </div>
+                <img src="https://source.unsplash.com/random/800x400/?cute,cafe" alt="Cute cafe" class="post-image">
+                <div class="post-content">
+                    <p>Once upon a time, in a land full of fluffy clouds and candy flowers, there was a little girl who loved to write about her adventures. Today I discovered the cutest little coffee shop! They had strawberry-shaped cupcakes and lattes with heart-shaped foam art 💖</p>
+                    <p>The walls were painted in pastel colors and there were plush toys everywhere! I felt like I stepped into a storybook...</p>
+                </div>
+                <a href="post.html" class="cute-button"><i class="fas fa-book-reader"></i> Read More</a>
+            </article>
+
+            <article class="notebook-paper">
+                <h2 class="post-title">Adventures with Puppy Friends 🐶</h2>
+                <div class="post-meta">
+                    <span class="meta-item"><i class="far fa-calendar-alt"></i> April 10, 2024</span>
+                    <span class="meta-item"><i class="fas fa-tag"></i> Pet Corner</span>
+                    <span class="meta-item"><i class="fas fa-comment"></i> 12 Comments</span>
+                </div>
+                <img src="https://source.unsplash.com/random/800x400/?puppy,golden-retriever" alt="Golden retriever puppy" class="post-image">
+                <div class="post-content">
+                    <p>Meet my new friend Biscuit! He's a golden retriever with the fluffiest ears you've ever seen. We spent the whole afternoon at the dog park playing fetch and making new friends.</p>
+                    <p>Biscuit has this adorable habit of tilting his head when he's curious about something...</p>
+                </div>
+                <a href="post.html" class="cute-button"><i class="fas fa-book-reader"></i> Read More</a>
+            </article>
+        </main>
+
+        <aside class="sidebar">
+            <div class="sidebar-widget about-widget">
+                <img src="https://source.unsplash.com/random/200x200/?girl,anime" alt="Blog author" class="avatar">
+                <h3 class="widget-title"><i class="fas fa-user"></i> About Me</h3>
+                <p>Hi! I'm Lily and I love all things cute and colorful! Join me as I share my adventures, DIY projects, and daily doses of happiness.</p>
+                <button class="cute-button"><i class="fas fa-paper-plane"></i> Follow Me</button>
+            </div>
+
+            <div class="sidebar-widget">
+                <h3 class="widget-title"><i class="fas fa-tags"></i> Categories</h3>
+                <ul class="category-list">
+                    <li class="category-item"><a href="#" class="category-link">Daily Adventures</a></li>
+                    <li class="category-item"><a href="#" class="category-link">DIY Projects</a></li>
+                    <li class="category-item"><a href="#" class="category-link">Pet Corner</a></li>
+                    <li class="category-item"><a href="#" class="category-link">Food & Recipes</a></li>
+                </ul>
+            </div>
+        </aside>
+    </div>
+
+    <footer class="footer">
+        <div class="social-links">
+            <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+            <a href="#" class="social-link"><i class="fab fa-pinterest"></i></a>
+            <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+        </div>
+        <p class="copyright">© 2025 Sweet Scribbles. All rights reserved.</p>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
